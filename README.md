@@ -9,7 +9,8 @@ data:
 ```
 
 ## Prequisite
-- Need 'credentials.json' file. Follow the [link](https://developers.google.com/assistant/sdk/guides/library/python/embed/install-sample) to obtain credentials.json.
+- Need 'credentials.json' file.
+  - Follow instructions from the [link](https://developers.google.com/assistant/sdk/guides/library/python/embed/install-sample) to obtain credentials.json.
 
 ## Installation
 1. Download
@@ -31,17 +32,17 @@ google_assistant_relay:
 ```
 #### Configuration variables:
 
-| key | required | default | description
-| --- | --- | --- | ---
-| **credentials** | yes | 'credentials.json' | relative path of credentials.json file from `<config directory>`
-| **language** | no | `en-US` | language of a query
+| key | required | default | dataType | description
+| --- | --- | --- | --- | ---
+| **credentials** | yes | 'credentials.json' | string | relative path of credentials.json file from `<config directory>`
+| **language** | no | 'en-US' | string | language of a query
 
 ## Services
 ### google_assistant_relay.assist
-| service data attribute | required | description
-| --- | --- | ---
-| **query** | yes | text input to Google Assistant
-| **response_event** | no | an event that contains response text from Google Assistant
+| service data attribute | required | dataType | description
+| --- | --- | --- | ---
+| **query** | yes | string | text input to Google Assistant
+| **response_event** | no | string | an event that contains response text from Google Assistant
 
 
 ## Credit
