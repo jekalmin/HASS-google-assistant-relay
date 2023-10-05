@@ -1,3 +1,6 @@
+# DEPRECATED
+- Since [Google Assistant SDK](https://www.home-assistant.io/integrations/google_assistant_sdk) is released, please use Google Assistant SDK.
+
 # google_assistant_relay
 Home Assistant custom component that sends text input to Google Assistant.
 
